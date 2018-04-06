@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Colorful acrobatic airplanes</title>
+        <style>
+            html, body {
+                padding: 0px;
+                margin: 0px;
+                overflow: hidden;
+            }
+        </style>
+    </head>
+    <body>
+        <script src="libs/stats.min.js"></script>
+        <script src="libs/p5.min.js"></script>
+        <script src="libs/p5.dom.js"></script>
+        <script src="PlaneTarget.js"></script>
+        <script src="Plane.js"></script>
+        <script src="Game.js"></script>
+        <script type="text/javascript">
+        let game;
+
+        function setup() { game = new Game() }
+        function draw() { game.draw() }
+        </script>
+    </body>
+</html>
